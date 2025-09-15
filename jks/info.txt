@@ -1,0 +1,31 @@
+keytool -genkey -v -keystore sign.jks -alias heartsteel -storepass 050205 -keypass 050205 -keyalg RSA -keysize 2048 -validity 36500
+
+keytool -importkeystore -srckeystore sign.jks -destkeystore sign.jks -deststoretype pkcs12
+
+-keystore：设置生成的文件名称，包含后缀；
+-alias：设置别名
+-storepass：设置文件的密码
+-keypass：设置key的密码
+-keyalg：设置使用的加密算法，一般写RSA
+-keysize：指定密钥长度（默认 1024）
+-validity：设置有效期（天）
+
+jks文件密码
+050205
+key密码
+050205
+key alias: heartsteel
+
+您的名字与姓氏是什么?
+  [Unknown]:  HuQi
+您的组织单位名称是什么?
+  [Unknown]:  hu-heartsteel-dev
+您的组织名称是什么?
+  [Unknown]:  heartsteel
+您所在的城市或区域名称是什么?
+  [Unknown]:  HLJ
+您所在的省/市/自治区名称是什么?
+  [Unknown]:  HRB
+该单位的双字母国家/地区代码是什么?
+  [Unknown]:  CN
+
