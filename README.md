@@ -11,5 +11,13 @@
 - 播放器逻辑封装：Java
 - 播放器底层实现：C++
 
-![输入图片说明](image/Screenshot_20250915_191453.png)
 ![输入图片说明](image/Screenshot_20250915_191509.png)
+
+运行代码：
+1. 拉取仓库
+2. 下载LFS
+3. 导入Android Studio
+4. Gradle sync
+5. 运行！
+
+非常简单且普通的 Android 项目
