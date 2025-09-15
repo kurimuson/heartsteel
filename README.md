@@ -16,8 +16,10 @@
 运行代码：
 1. 拉取仓库
 2. 下载LFS
-3. 导入Android Studio
+3. 导入 Android Studio
 4. Gradle sync
 5. 运行！
+
+注：Android Studio 需要安装 NDK 与 CMake 4.1.0
 
 非常简单且普通的 Android 项目
