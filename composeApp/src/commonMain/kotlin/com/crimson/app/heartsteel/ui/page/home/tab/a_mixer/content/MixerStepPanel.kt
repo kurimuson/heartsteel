@@ -81,8 +81,8 @@ fun MixerStepPanel(
             .padding(8.dp),
     ) {
         MixerEachCard(step, "ry") { result -> onTraitsSelected("ry", result) }
-        MixerEachCard(step, "tr") { result -> onTraitsSelected("tr", result) }
         MixerEachCard(step, "bg") { result -> onTraitsSelected("bg", result) }
+        MixerEachCard(step, "tr") { result -> onTraitsSelected("tr", result) }
         Button(
             modifier = Modifier
                 .fillMaxSize()

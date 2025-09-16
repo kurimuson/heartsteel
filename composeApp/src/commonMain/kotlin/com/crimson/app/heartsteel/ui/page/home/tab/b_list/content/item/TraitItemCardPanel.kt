@@ -236,8 +236,8 @@ fun TraitItemPanel(
                     val trackTypes = remember {
                         listOf(
                             "主音：" to "ry",
-                            "鼓组：" to "tr",
                             "伴奏：" to "bg",
+                            "鼓组：" to "tr",
                         )
                     }
                     val step = remember {

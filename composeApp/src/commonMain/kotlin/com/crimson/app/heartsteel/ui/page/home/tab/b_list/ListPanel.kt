@@ -51,10 +51,17 @@ val previewData = TraitSave(
         "s_1_jin"
     ),
     trackMap = mapOf(
-        "ry" to listOf(TraitEnum.TraitHeartsteel),
-        "bg" to listOf(TraitEnum.TraitHeartsteel, TraitEnum.TraitHyperpop),
-        "tr" to listOf(TraitEnum.TraitHeartsteel),
-        "s" to listOf(TraitEnum.TraitClassical),
+        "ry" to listOf(
+            TraitEnum.TraitHeartsteel,
+            TraitEnum.TraitClassical,
+        ),
+        "tr" to listOf(
+            TraitEnum.TraitHeartsteel,
+        ),
+        "bg" to listOf(
+            TraitEnum.TraitHeartsteel,
+            TraitEnum.TraitHyperpop,
+        ),
     )
 )
 

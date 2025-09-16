@@ -180,10 +180,10 @@ val traitInfoMap: Map<TraitEnum, TraitInfo>
                 panel = Res.drawable.Trait_Panel_10_Hyperpop,
                 musicTrackMap = mapOf(
                     "1" to mapOf(
-                        "ry" to "glitterbomb_1_bg",
+                        "bg" to "glitterbomb_1_bg",
                     ),
                     "2" to mapOf(
-                        "ry" to "glitterbomb_2_bg",
+                        "bg" to "glitterbomb_2_bg",
                     ),
                 )
             ),
@@ -317,7 +317,6 @@ val traitKeyListMap = mapOf(
         TraitEnum.TraitHeartsteel,
         TraitEnum.TraitPentakill,
         TraitEnum.TraitTrueDamage,
-        TraitEnum.TraitHyperpop,
         TraitEnum.TraitJazz,
         TraitEnum.TraitClassical,
         TraitEnum.TraitPiano,
@@ -328,6 +327,7 @@ val traitKeyListMap = mapOf(
         TraitEnum.TraitHeartsteel,
         TraitEnum.TraitPentakill,
         TraitEnum.TraitTrueDamage,
+        TraitEnum.TraitHyperpop,
         TraitEnum.Trait8Bit,
         TraitEnum.TraitCountry,
         TraitEnum.TraitFunk,

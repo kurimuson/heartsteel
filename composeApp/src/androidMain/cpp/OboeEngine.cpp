@@ -100,6 +100,7 @@ namespace oboe_engine {
                 ->setSampleRate(mSampleRate)
                 ->setChannelCount(mChannels)
                 ->setFormat(audioFormat)
+                ->setAudioApi(oboe::AudioApi::AAudio) // 已经在minSDK指定Android8了，所以这里直接使用AAudio
                 ->openStream(&mStream);
         if (result != oboe::Result::OK || !mStream) {
             LOGE("Failed to open stream: %s", oboe::convertToText(result));

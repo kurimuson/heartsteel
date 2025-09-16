@@ -44,11 +44,11 @@ public class OboeMixerPlayer extends OboePlayer {
         }
         if (this.isInitialled) {
             if (trackList.isEmpty()) {
-                this.stop(() -> {
+                this.release(() -> {
                     this.finishInvoke(onFinish);
+                    this.doPlayTimeCallback(new PlayTime(0, 0));
                     return null;
                 });
-                this.doPlayTimeCallback(new PlayTime(0, 0));
             } else {
                 this.updateTrackInPlaying(set1, set2);
             }
